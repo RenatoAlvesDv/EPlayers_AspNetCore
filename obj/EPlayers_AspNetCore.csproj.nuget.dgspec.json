@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Curso Tecnico Senai  DV\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj": {}
+    "C:\\Users\\dev\\Desktop\\Renato Alves Senai\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj": {}
   },
   "projects": {
-    "E:\\Curso Tecnico Senai  DV\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj": {
+    "C:\\Users\\dev\\Desktop\\Renato Alves Senai\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Curso Tecnico Senai  DV\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\dev\\Desktop\\Renato Alves Senai\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj",
         "projectName": "EPlayers_AspNetCore",
-        "projectPath": "E:\\Curso Tecnico Senai  DV\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj",
-        "packagesPath": "C:\\Users\\renat\\.nuget\\packages\\",
-        "outputPath": "E:\\Curso Tecnico Senai  DV\\EPlayers_AspNetCore\\obj\\",
+        "projectPath": "C:\\Users\\dev\\Desktop\\Renato Alves Senai\\EPlayers_AspNetCore\\EPlayers_AspNetCore.csproj",
+        "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dev\\Desktop\\Renato Alves Senai\\EPlayers_AspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\renat\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

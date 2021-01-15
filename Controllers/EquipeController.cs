@@ -8,7 +8,7 @@ namespace EPlayers_AspNetCore.Interfaces
 {
 
     [Route("Equipe")]
-    //http://localhost:5000/Equipe
+    //http://localhost:5001/Equipe
     public class EquipeController : Controller
     {
         //Criamos uma intância de equipeModel
