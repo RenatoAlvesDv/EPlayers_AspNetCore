@@ -17,17 +17,28 @@
                     <i class="fas fa-bars"></i>
                 </a>
 
-                <a asp-area="" asp-controller="Home" asp-action="Index">
+            <a asp-area="" asp-controller="Home" asp-action="Index">
                     <img src="~/Images/Logo.svg" alt="Logo do site E-Players">
                 </a>
             </div>
             <nav id="menu">
                 <ul>
-                    <li><a asp-area="" title="voltar para a página inicial">INÍCIO</a></li>
+                    <li><a asp-area = "" asp-controller = "Home" asp-action = "Index">INÍCIO</a></li>
                     <li><a href="#horarios" title="Ir até a sessão de horários das partidas">HORÁRIOS</a></li>
                     <li><a href="#resultados" title="Ir até a sessão de resultados das partidas">RESULTADOS</a></li>
                     <li><a href="#noticias" title="Ir até a sessão de notícias">NOTÍCIAS</a></li>
+                   
+                      @if(ViewBag.UserName != null)
+                    {
+                        <li style="color : #d5379b">Olá, @ViewBag.UserName !</li>
+                        <li>
+                             <li><a asp-controller="Login" asp-action="Logout" title="Deslogar na aplicação">SAIR</a></li>
+                        </li>
+                    }else{
+                        <li><a asp-controller="Login" asp-action="Index" title="Logar na aplicação">Login</a></li>
+                    }
                     <li><a href="#" title="buscar conteudo no site"><i class="fas fa-search"></i></a></li>
+                </ul>
                 </ul>
             </nav>
         </div>

@@ -14,7 +14,7 @@ namespace EPlayers_AspNetCore.Models
         public string Senha { get; set; }
 
         
-        private const string PATH = "Database/Jogador.csv";
+        public string PATH = "Database/Jogador.csv";
 
 
         public Jogador()

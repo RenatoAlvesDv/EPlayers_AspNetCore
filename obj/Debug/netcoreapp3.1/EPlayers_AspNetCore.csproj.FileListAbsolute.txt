@@ -73,3 +73,4 @@ C:\Users\dev\Desktop\Renato Alves Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp
 C:\Users\dev\Desktop\Renato Alves Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\EPlayers_AspNetCore.genruntimeconfig.cache
 C:\Users\dev\Desktop\Renato Alves Senai\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\EPlayers_AspNetCore.csproj.CopyComplete
 E:\Curso Tecnico Senai  DV\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Jogador\Index.cshtml.g.cs
+E:\Curso Tecnico Senai  DV\EPlayers_AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs

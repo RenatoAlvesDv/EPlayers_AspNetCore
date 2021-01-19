@@ -9,19 +9,22 @@ namespace EPlayers_AspNetCore.Controllers
     {
         
         Jogador jogadorModel = new Jogador();
+        Equipe equipeModel = new Equipe();
 
-            [Route("Listar-Jogadores")]
+            [Route("Jogador")]
         public IActionResult Index()
         {
-            ViewBag.Jogadores = jogadorModel.ReadAll();
+            ViewBag.Equipes     = equipeModel.ReadAll();
+            ViewBag.Jogadores   = jogadorModel.ReadAll();
             return View();
         }
         
-        [Route("Cadastrar-Jogador")]
+        [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
         {
             Jogador novoJogador     = new Jogador();
             novoJogador.IdJogador   = Int32.Parse(form["IdJogador"]);
+            novoJogador.IdJogador   = Int32.Parse(form["IdEquipe"]);
             novoJogador.Nome        = form["Nome"];
             novoJogador.Email       = form["Email"];
             novoJogador.Senha       = form["Senha"];
